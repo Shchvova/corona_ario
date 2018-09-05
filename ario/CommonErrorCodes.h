@@ -1,0 +1,11 @@
+#pragma once
+
+#define STORE_NOERROR(p) (p == 0) 
+#define STORE_FAILED(p) (p != 0)
+
+#define STORE_ERROR_CODE_OK					0
+#define STORE_ERROR_KEY_NOT_FOUND			-4
+#define STORE_ERROR_INVALID_PACKAGE_NAME	-5
+#define STORE_ERROR_INVALID_PARAM			-6
+#define STORE_ERROR_NOT_RUN_FROM_ARIO		-7
+#define STORE_ERROR_UNKNWOWN				-100

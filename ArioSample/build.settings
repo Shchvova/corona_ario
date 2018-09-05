@@ -1,0 +1,27 @@
+settings =
+{
+	orientation =
+	{
+		default = "landscapeRight",
+		supported = {"landscapeLeft", "landscapeRight"}
+	},
+	
+	window = {
+		-- fullscreen, maximized, normal, minimized
+        defaultMode = "minimized",
+		suspendWhenMinimized = true,
+		--resizable = true,
+		minViewWidth = 1600,
+		minViewHeight = 800,
+		titleText = {
+            default = "Necromancer Returns",
+        },
+    },
+	
+	plugins =
+	{
+		["plugin.openssl"] = {
+			publisherId = "com.coronalabs",
+		}
+	}
+}
